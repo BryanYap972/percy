@@ -45,8 +45,8 @@ jobs:
       - name: Install dependencies 👨🏻‍💻
         run: yarn
 
-      - name: Run linter 👀
-        run: yarn lint
+      - name: Run dev 👀
+        run: yarn dev
 
-      - name: Run tests 🧪
-        run: yarn test
+      - name: Run percy 🧪
+        run: npx percy exec -- node snapshots.js
