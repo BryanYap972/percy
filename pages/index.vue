@@ -10,7 +10,7 @@
           rel="noopener noreferrer"
           class="button--green"
         >
-          Documentation
+          tests
         </a>
       </div>
     </div>
