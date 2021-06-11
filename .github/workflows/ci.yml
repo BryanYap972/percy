@@ -35,5 +35,7 @@ jobs:
 
       - name: Run percy 🧪
         run: npx percy exec -- node snapshots.js
+        env:
+          PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
 
         timeout-minutes: 1
