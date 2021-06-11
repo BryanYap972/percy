@@ -4,14 +4,6 @@
       <Logo />
       <h1 class="title">percy</h1>
       <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
       </div>
     </div>
   </div>
