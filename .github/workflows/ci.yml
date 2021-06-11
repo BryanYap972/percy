@@ -3,8 +3,6 @@ on:
   pull_request:
     branches:
       - main
-
-        timeout-minutes: 1
 jobs:
   build:
     runs-on: ubuntu-18.04
